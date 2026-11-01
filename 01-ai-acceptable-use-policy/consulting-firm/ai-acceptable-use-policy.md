@@ -1,6 +1,6 @@
 # AI Acceptable-Use Policy: Keystone Advisory (fictional example)
 
-> **This is a fictional worked example.** Keystone Advisory does not exist. It shows how a small consulting firm could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Ask your legal counsel to review your own policy. This example is not legal advice.
+> **This is a fictional worked example.** Keystone Advisory does not exist. Any resemblance to a real company is a coincidence. It shows how a small consulting firm could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Ask your legal counsel to review your own policy. This example is not legal advice.
 >
 > Free to use and adapt.
 
@@ -169,10 +169,10 @@ I read the Keystone Advisory AI Acceptable-Use Policy. I understand it, and I ag
 
 The generic template has the full section-by-section mapping. This example adds controls that support these items:
 
-- **NIST AI RMF 1.0:** GOVERN 6.1 (third-party risks), MAP 3.5 (human oversight), MANAGE 4.3 (incident communication)
-- **NIST AI 600-1:** GV-1.4-002 (transparent acceptable-use policies), GV-6.1-010 (rules for contractors and other third parties)
-- **ISO/IEC 42001, Annex A areas:** A.8 (information for interested parties), A.10 (third-party and customer relationships)
-- **OWASP Top 10 for LLM Applications 2026:** LLM01 Prompt Injection (11.2), LLM02 Sensitive Information Disclosure (5, 6), LLM07 Misinformation (8)
+- **[NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework):** [GOVERN 6.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29) (third-party risks), [MAP 3.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) (human oversight), [MANAGE 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=38) (incident communication)
+- **[NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf):** [GV-1.4-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=19) (transparent acceptable-use policies), [GV-6.1-010](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) (rules for contractors and other third parties)
+- **[ISO/IEC 42001](https://www.iso.org/standard/42001), Annex A areas:** A.8 (information for interested parties), A.10 (third-party and customer relationships)
+- **[OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/):** LLM01 Prompt Injection (11.2), LLM02 Sensitive Information Disclosure (5, 6), LLM07 Misinformation (8)
 
 ---
 *Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

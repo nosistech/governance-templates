@@ -1,12 +1,12 @@
-# AI Acceptable-Use Policy: Ardent Data, Inc. (fictional example)
+# AI Acceptable-Use Policy: Lumorra Data, Inc. (fictional example)
 
-> **This is a fictional worked example.** Ardent Data, Inc. does not exist. It shows how a B2B software company that builds an AI product could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Ask your legal counsel to review your own policy. This example is not legal advice.
+> **This is a fictional worked example.** Lumorra Data, Inc. does not exist. Any resemblance to a real company is a coincidence. It shows how a B2B software company that builds an AI product could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Ask your legal counsel to review your own policy. This example is not legal advice.
 >
 > Free to use and adapt.
 
 | Document control | |
 |---|---|
-| Company | Ardent Data, Inc.: a multi-tenant AI platform that lets mid-size companies search, summarize, and automate work on their own documents. About 45 staff, remote-first, customers in the US and the EU. |
+| Company | Lumorra Data, Inc.: a multi-tenant AI platform that lets mid-size companies search, summarize, and automate work on their own documents. About 45 staff, remote-first, customers in the US and the EU. |
 | Policy owner | Head of Security and Compliance |
 | Approved by | Chief Executive Officer and Chief Technology Officer |
 | Effective date | November 1, 2026 |
@@ -17,7 +17,7 @@
 
 ## 1. Purpose
 
-Ardent Data uses AI in two ways. Our staff use AI tools to do their work, and our product uses AI to serve our customers. This policy sets the rules for both. It protects our customers' data, keeps the promises in our customer contracts, and keeps our product secure.
+Lumorra Data uses AI in two ways. Our staff use AI tools to do their work, and our product uses AI to serve our customers. This policy sets the rules for both. It protects our customers' data, keeps the promises in our customer contracts, and keeps our product secure.
 
 ## 2. Scope
 
@@ -26,16 +26,16 @@ This policy applies to all employees, contractors, and interns, in all countries
 
 ### 2.2 What this policy applies to
 - **AI tools that staff use:** chat assistants, code assistants, AI agents, notetakers, browser extensions, and AI features inside our business software.
-- **AI in our product:** the large language models (LLMs) and other AI components in the Ardent platform. This includes the customer data that they process.
+- **AI in our product:** the large language models (LLMs) and other AI components in the Lumorra platform. This includes the customer data that they process.
 
-The Ardent Secure Development Standard gives the detailed engineering steps for the product. This policy sets the rules that the standard must follow.
+The Lumorra Secure Development Standard gives the detailed engineering steps for the product. This policy sets the rules that the standard must follow.
 
 ### 2.3 Definitions
-- **Customer data:** all data that a customer or its users put into the Ardent platform, including documents, prompts, outputs, embeddings, logs, and files.
+- **Customer data:** all data that a customer or its users put into the Lumorra platform, including documents, prompts, outputs, embeddings, logs, and files.
 - **Model provider:** a company whose AI model our product calls through an API.
 - **Sub-processor list:** the public list of vendors that process customer data for us. Our customer contracts require us to keep it current.
 - **MCP server:** a connector that gives an AI tool access to other software or data. MCP stands for Model Context Protocol.
-- **Approved tool:** an AI tool with the status "Approved" or "Approved with conditions" in the Ardent AI Tool Register.
+- **Approved tool:** an AI tool with the status "Approved" or "Approved with conditions" in the Lumorra AI Tool Register.
 
 ## 3. Roles
 
@@ -49,8 +49,8 @@ The Ardent Secure Development Standard gives the detailed engineering steps for 
 
 ## 4. Approved tools and new requests
 
-1. Use only approved tools for Ardent work, with your Ardent account. The list is in the AI Tool Register.
-2. Never use a personal account or a free AI tool for Ardent work.
+1. Use only approved tools for Lumorra work, with your Lumorra account. The list is in the AI Tool Register.
+2. Never use a personal account or a free AI tool for Lumorra work.
 3. To request a new tool, open a ticket in the security queue. Give the tool name, the task, and the data that the tool will see. We decide within 5 business days.
 4. MCP servers, plugins, and IDE extensions count as tools. Install only the ones on the approved list.
 5. A new model provider for the product needs approval from the AI Review Group. Before it processes customer data, we update the sub-processor list and give customers the notice that their contracts require.
@@ -61,7 +61,7 @@ The Ardent Secure Development Standard gives the detailed engineering steps for 
 |---|---|---|
 | **Public** | Our website, public documentation, open-source code, published blog posts | Any approved tool |
 | **Internal** | Internal documents, roadmaps, and our own source code without secrets | Approved business tools that do not let the vendor train its AI on our data |
-| **Restricted** | All customer data. Also personal data, production database content, details of unfixed security vulnerabilities, unreleased financial results, passwords, API keys, and other secrets. | **Customer data:** only inside the Ardent platform and the model providers on our sub-processor list. **Secrets:** never, in any AI tool. |
+| **Restricted** | All customer data. Also personal data, production database content, details of unfixed security vulnerabilities, unreleased financial results, passwords, API keys, and other secrets. | **Customer data:** only inside the Lumorra platform and the model providers on our sub-processor list. **Secrets:** never, in any AI tool. |
 
 Also follow these rules:
 
@@ -144,14 +144,14 @@ Report even if you are not sure. We do not punish good-faith reports of mistakes
 1. **Exceptions:** Ask the policy owner in a ticket. Give the reason, the time limit, and the extra controls. Exceptions for customer data also need the CTO.
 2. **Enforcement:** If you do not follow this policy, you can lose access to AI tools and systems. Disciplinary action is also possible, as our other policies and the law allow.
 3. **Your rights:** This policy does not limit your rights under the law, including your right to discuss the terms and conditions of your employment.
-4. **Monitoring:** Ardent keeps logs of staff AI tool use for 90 days to protect customer data, as the law allows.
+4. **Monitoring:** Lumorra keeps logs of staff AI tool use for 90 days to protect customer data, as the law allows.
 5. **Review:** The policy owner reviews this policy at least every 12 months. The policy owner also reviews it after a serious AI incident, when a law changes, or when a model provider changes its terms.
 
 ---
 
 ## Acknowledgement
 
-I read the Ardent Data AI Acceptable-Use Policy. I understand it, and I agree to follow it.
+I read the Lumorra Data AI Acceptable-Use Policy. I understand it, and I agree to follow it.
 
 | Name | Team | Signature | Date |
 |---|---|---|---|
@@ -179,7 +179,7 @@ Enterprise customers ask the same AI questions in most security reviews. This ta
 
 The generic template has the full section-by-section mapping. This example adds product controls that support these items:
 
-- **OWASP Top 10 for LLM Applications 2026:**
+- **[OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/):**
   - LLM01 Prompt Injection: 7.4
   - LLM02 Sensitive Information Disclosure: 5, 7.3
   - LLM03 Excessive Agency: 6.5–6.7
@@ -187,10 +187,10 @@ The generic template has the full section-by-section mapping. This example adds 
   - LLM06 Unbounded Consumption: 7.9
   - LLM08 Hidden Context Exposure: 7.10
   - LLM09 Vector and Embedding Weaknesses: 7.3
-- **NIST AI 600-1:** GV-6.1-007 (approved provider list), GV-1.6-002 (AI inside other software), MG-2.4-004 (criteria to switch off a system)
-- **NIST AI RMF 1.0:** GOVERN 6.1 (third-party risks), MANAGE 2.4 (switch off), MANAGE 4.3 (incident communication)
-- **ISO/IEC 42001, Annex A areas:** A.6 (AI system life cycle), A.7 (data for AI systems), A.10 (third-party and customer relationships)
-- **EU AI Act:** Article 4 (AI literacy) and Article 50 (transparency when people interact with AI). Ask counsel to confirm your role (provider or deployer) for each AI feature.
+- **[NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf):** [GV-6.1-007](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) (approved provider list), [GV-1.6-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20) (AI inside other software), [MG-2.4-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=46) (criteria to switch off a system)
+- **[NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework):** [GOVERN 6.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29) (third-party risks), [MANAGE 2.4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) (switch off), [MANAGE 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=38) (incident communication)
+- **[ISO/IEC 42001](https://www.iso.org/standard/42001), Annex A areas:** A.6 (AI system life cycle), A.7 (data for AI systems), A.10 (third-party and customer relationships)
+- **[EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng):** [Article 4](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_4) (AI literacy) and [Article 50](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_50) (transparency when people interact with AI). Ask counsel to confirm your role (provider or deployer) for each AI feature.
 
 ---
 *Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

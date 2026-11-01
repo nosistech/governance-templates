@@ -1,17 +1,17 @@
-# Using AI at Ardent Data: one-page guide (fictional example)
+# Using AI at Lumorra Data: one-page guide (fictional example)
 
-> This page is a summary. The full rules are in the Ardent Data AI Acceptable-Use Policy.
+> This page is a summary. The full rules are in the Lumorra Data AI Acceptable-Use Policy.
 
 ## Everyone
 
 **Do**
-1. Use approved tools only, with your Ardent account. The list is in the AI Tool Register.
+1. Use approved tools only, with your Lumorra account. The list is in the AI Tool Register.
 2. Check the data tier before you paste or upload anything (table below).
 3. Check every fact, number, and source in AI output.
 4. Report fast in #security-incidents. We do not punish good-faith reports.
 
 **Do not**
-1. Do not use personal or free AI accounts for Ardent work.
+1. Do not use personal or free AI accounts for Lumorra work.
 2. Do not paste customer data into any chat or code assistant. Use the masked test data.
 3. Do not put passwords, API keys, or other secrets into any AI tool.
 4. Do not record a meeting without everyone's consent.
@@ -37,7 +37,7 @@
 |---|---|---|
 | 🟢 **Public** | Website, public docs, open-source code | Any approved tool |
 | 🟡 **Internal** | Internal docs, roadmaps, our code without secrets | Approved business tools |
-| 🔴 **Restricted** | All customer data, personal data, production data, unfixed vulnerabilities, secrets | Customer data: only the Ardent platform and listed model providers. Secrets: never |
+| 🔴 **Restricted** | All customer data, personal data, production data, unfixed vulnerabilities, secrets | Customer data: only the Lumorra platform and listed model providers. Secrets: never |
 
 **Not sure? Treat it as 🔴 Restricted.**
 

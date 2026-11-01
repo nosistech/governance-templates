@@ -21,10 +21,10 @@ The four templates work together. The policy sets the rules. The register lists 
 |---|---|---|
 | `generic` | Any company | None. It uses `[placeholders]`. |
 | `healthcare-clinic-group` | A US clinic or medical group that handles patient data | Riverbend Family Health: 6 clinics in Texas and California |
-| `b2b-ai-saas` | A software company that builds or sells an AI product | Ardent Data, Inc.: a multi-tenant AI platform |
+| `b2b-ai-saas` | A software company that builds or sells an AI product | Lumorra Data, Inc.: a multi-tenant AI platform |
 | `consulting-firm` | A consulting or professional services firm | Keystone Advisory: a 12-person remote firm |
 
-The example companies do not exist. They show how the rules change for each industry.
+The example companies do not exist. Any resemblance to a real company is a coincidence. They show how the rules change for each industry.
 
 ## Template 01: AI acceptable-use policy
 

@@ -1,6 +1,6 @@
 # AI Acceptable-Use Policy: Riverbend Family Health (fictional example)
 
-> **This is a fictional worked example.** Riverbend Family Health does not exist. It shows how a US outpatient clinic group could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Laws change and differ by state. Ask your legal counsel and your HIPAA Privacy Officer to review your own policy. This example is not legal advice.
+> **This is a fictional worked example.** Riverbend Family Health does not exist. Any resemblance to a real company is a coincidence. It shows how a US outpatient clinic group could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Laws change and differ by state. Ask your legal counsel and your HIPAA Privacy Officer to review your own policy. This example is not legal advice.
 >
 > Free to use and adapt.
 
@@ -167,23 +167,23 @@ Status as of October 2026. Confirm with your counsel before you rely on any of t
 
 | Rule | What it requires | Sections in this policy |
 |---|---|---|
-| HIPAA Privacy Rule, minimum necessary standard (45 CFR 164.502(b)) | Use and share only the minimum PHI that a task needs | 5 |
-| HIPAA business associate rules (45 CFR 164.502(e), 164.504(e)) | A BAA before a vendor creates, receives, keeps, or sends PHI | 4, 5, 9 |
-| HIPAA Breach Notification Rule (45 CFR 164.400–414) | Notice to patients without unreasonable delay, and no later than 60 days after discovery | 12 |
-| Section 1557 of the Affordable Care Act (45 CFR 92.210) | Reasonable efforts to find and reduce discrimination risk in patient care decision support tools | 6 |
-| California Health and Safety Code §1339.75 (AB 3030) | A disclaimer and contact instructions on AI-generated clinical messages, unless a licensed provider reviewed them | 8 |
-| California Penal Code §632 | Consent of all parties before recording a confidential conversation | 7 |
-| Texas HB 149, Texas Responsible AI Governance Act (from January 1, 2026) | Tell patients in plain language that AI is used in their care, by the date of service | 8 |
-| Texas SB 1188 (Health and Safety Code §183.005, from September 1, 2025) | A practitioner who uses AI for diagnosis reviews all AI-generated records and tells the patient | 6, 8 |
+| HIPAA Privacy Rule, minimum necessary standard ([45 CFR 164.502(b)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.502#p-164.502%28b%29)) | Use and share only the minimum PHI that a task needs | 5 |
+| HIPAA business associate rules ([45 CFR 164.502(e)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.502#p-164.502%28e%29), [164.504(e)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.504#p-164.504%28e%29)) | A BAA before a vendor creates, receives, keeps, or sends PHI | 4, 5, 9 |
+| HIPAA Breach Notification Rule ([45 CFR 164.400–414](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D)) | Notice to patients without unreasonable delay, and no later than 60 days after discovery | 12 |
+| Section 1557 of the Affordable Care Act ([45 CFR 92.210](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-C/section-92.210)) | Reasonable efforts to find and reduce discrimination risk in patient care decision support tools | 6 |
+| [California Health and Safety Code §1339.75](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=1339.75.) ([AB 3030](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB3030)) | A disclaimer and contact instructions on AI-generated clinical messages, unless a licensed provider reviewed them | 8 |
+| [California Penal Code §632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632.) | Consent of all parties before recording a confidential conversation | 7 |
+| [Texas HB 149](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149), Texas Responsible AI Governance Act (from January 1, 2026) | Tell patients in plain language that AI is used in their care, by the date of service | 8 |
+| [Texas SB 1188](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1188) (Health and Safety Code §183.005, from September 1, 2025) | A practitioner who uses AI for diagnosis reviews all AI-generated records and tells the patient | 6, 8 |
 
 ## Appendix B. Framework mapping
 
 The generic template has the full section-by-section mapping. This example adds clinical controls that support these items:
 
-- **NIST AI RMF 1.0:** MAP 3.5 (human oversight), MEASURE 2.11 (fairness and bias), MANAGE 4.3 (incident communication)
-- **NIST AI 600-1:** GV-1.4-002 (transparent acceptable-use policies), MG-2.4-004 (criteria to switch off a system)
-- **ISO/IEC 42001, Annex A areas:** A.5 (assessing impacts of AI systems), A.8 (information for interested parties), A.9 (use of AI systems)
-- **OWASP Top 10 for LLM Applications 2026:** LLM02 Sensitive Information Disclosure, LLM07 Misinformation
+- **[NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework):** [MAP 3.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) (human oversight), [MEASURE 2.11](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=35) (fairness and bias), [MANAGE 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=38) (incident communication)
+- **[NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf):** [GV-1.4-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=19) (transparent acceptable-use policies), [MG-2.4-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=46) (criteria to switch off a system)
+- **[ISO/IEC 42001](https://www.iso.org/standard/42001), Annex A areas:** A.5 (assessing impacts of AI systems), A.8 (information for interested parties), A.9 (use of AI systems)
+- **[OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/):** LLM02 Sensitive Information Disclosure, LLM07 Misinformation
 
 ---
 *Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
