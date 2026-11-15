@@ -9,7 +9,7 @@ By [NosisTech LLC](https://nosistech.com).
 | # | Template | What it does | Status |
 |---|---|---|---|
 | 01 | [AI acceptable-use policy](01-ai-acceptable-use-policy/) | Sets the rules for how staff use AI tools at work | ✅ Available |
-| 02 | AI tool inventory and risk register | Lists the AI tools that a company uses, with a risk score for each | Coming soon |
+| 02 | [AI tool register](02-ai-tool-register/) | Lists the AI tools that a company uses, with a risk score for each | ✅ Available |
 | 03 | AI vendor security questionnaire | Gives the questions to ask before you approve an AI vendor | Coming soon |
 | 04 | AI incident-response playbook | Explains what to do when an AI tool causes harm or a data leak | Coming soon |
 
@@ -34,6 +34,17 @@ The example companies do not exist. Any resemblance to a real company is a coinc
 | Healthcare clinic group | [Markdown](01-ai-acceptable-use-policy/healthcare-clinic-group/ai-acceptable-use-policy.md) · [Word](01-ai-acceptable-use-policy/healthcare-clinic-group/ai-acceptable-use-policy.docx) | [Markdown](01-ai-acceptable-use-policy/healthcare-clinic-group/staff-cheat-sheet.md) · [Word](01-ai-acceptable-use-policy/healthcare-clinic-group/staff-cheat-sheet.docx) | |
 | B2B AI SaaS | [Markdown](01-ai-acceptable-use-policy/b2b-ai-saas/ai-acceptable-use-policy.md) · [Word](01-ai-acceptable-use-policy/b2b-ai-saas/ai-acceptable-use-policy.docx) | [Markdown](01-ai-acceptable-use-policy/b2b-ai-saas/staff-cheat-sheet.md) · [Word](01-ai-acceptable-use-policy/b2b-ai-saas/staff-cheat-sheet.docx) | |
 | Consulting firm | [Markdown](01-ai-acceptable-use-policy/consulting-firm/ai-acceptable-use-policy.md) · [Word](01-ai-acceptable-use-policy/consulting-firm/ai-acceptable-use-policy.docx) | [Markdown](01-ai-acceptable-use-policy/consulting-firm/staff-cheat-sheet.md) · [Word](01-ai-acceptable-use-policy/consulting-firm/staff-cheat-sheet.docx) | Client AI-use notice, English and Spanish: [Markdown](01-ai-acceptable-use-policy/consulting-firm/client-ai-use-notice.md) · [Word](01-ai-acceptable-use-policy/consulting-firm/client-ai-use-notice.docx) |
+
+## Template 02: AI tool register
+
+| Version | Register (Excel) | Guide | Request form |
+|---|---|---|---|
+| Generic | [Excel](02-ai-tool-register/generic/ai-tool-register.xlsx) | [Markdown](02-ai-tool-register/generic/ai-tool-register-guide.md) · [Word](02-ai-tool-register/generic/ai-tool-register-guide.docx) | [Markdown](02-ai-tool-register/generic/ai-tool-request-form.md) · [Word](02-ai-tool-register/generic/ai-tool-request-form.docx) |
+| Healthcare clinic group | [Excel](02-ai-tool-register/healthcare-clinic-group/ai-tool-register.xlsx) | [Markdown](02-ai-tool-register/healthcare-clinic-group/ai-tool-register-guide.md) · [Word](02-ai-tool-register/healthcare-clinic-group/ai-tool-register-guide.docx) | [Markdown](02-ai-tool-register/healthcare-clinic-group/ai-tool-request-form.md) · [Word](02-ai-tool-register/healthcare-clinic-group/ai-tool-request-form.docx) |
+| B2B AI SaaS | [Excel](02-ai-tool-register/b2b-ai-saas/ai-tool-register.xlsx) | [Markdown](02-ai-tool-register/b2b-ai-saas/ai-tool-register-guide.md) · [Word](02-ai-tool-register/b2b-ai-saas/ai-tool-register-guide.docx) | [Markdown](02-ai-tool-register/b2b-ai-saas/ai-tool-request-form.md) · [Word](02-ai-tool-register/b2b-ai-saas/ai-tool-request-form.docx) |
+| Consulting firm | [Excel](02-ai-tool-register/consulting-firm/ai-tool-register.xlsx) | [Markdown](02-ai-tool-register/consulting-firm/ai-tool-register-guide.md) · [Word](02-ai-tool-register/consulting-firm/ai-tool-register-guide.docx) | [Markdown](02-ai-tool-register/consulting-firm/ai-tool-request-form.md) · [Word](02-ai-tool-register/consulting-firm/ai-tool-request-form.docx) |
+
+The Excel file calculates the risk score, the risk level, and the next review date for each row.
 
 ## How to use a template
 
