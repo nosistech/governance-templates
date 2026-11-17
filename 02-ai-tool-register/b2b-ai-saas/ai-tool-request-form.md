@@ -2,7 +2,7 @@
 
 > **This is a fictional worked example.** Lumorra Data, Inc. does not exist. Any resemblance to a real company is a coincidence. It shows how a B2B software company could adapt the [generic form](../generic/ai-tool-request-form.md). This example is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 Attach the completed form to a ticket in the security queue. We decide within 5 business days.
 
@@ -14,7 +14,7 @@ Attach the completed form to a ticket in the security queue. We decide within 5 
 |---|---|
 | Your name, team, and date | |
 | What do you request? | ☐ A staff tool ☐ An MCP server, plugin, or IDE extension ☐ A new model provider for the product ☐ A new AI feature in the product ☐ A new use of an approved tool |
-| Name of the tool, model, or feature, and the plan (for example free, business, or enterprise) | |
+| Name of the tool, model, or feature, and the plan (for example no-cost, business, or enterprise) | |
 | Vendor and website | |
 | What task do you want to do with it? Give one example. | |
 | Who will use it? Staff (how many), or customers (which tenants)? | |
@@ -47,4 +47,4 @@ Attach the completed form to a ticket in the security queue. We decide within 5 
 | Ticket closed and requester informed on | |
 
 ---
-*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

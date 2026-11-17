@@ -11,7 +11,7 @@
 6. **Report mistakes fast** to [contact]. We do not punish good-faith reports.
 
 ## Do not
-1. **Do not use personal or free AI accounts** for company work.
+1. **Do not use personal AI accounts** for company work.
 2. **Do not put Restricted data** into a tool that is not approved for it.
 3. **Do not put passwords, API keys, or other secrets** into any AI tool.
 4. **Do not let AI make the final decision** about a person.

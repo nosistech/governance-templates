@@ -2,7 +2,7 @@
 
 > **How to use this template.** Staff fill in Part 1 when they want a new AI tool or a new use of an approved tool. The register owner fills in Part 2. Replace every item in `[square brackets]`. This template is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 Send the completed form to [register owner / channel]. We decide within [5] business days.
 
@@ -13,7 +13,7 @@ Send the completed form to [register owner / channel]. We decide within [5] busi
 | Question | Your answer |
 |---|---|
 | Your name, team, and date | |
-| Name of the AI tool, and the plan (for example free, business, or enterprise) | |
+| Name of the AI tool, and the plan (for example no-cost, business, or enterprise) | |
 | Vendor and website | |
 | What task do you want to do with it? Give one example. | |
 | Who will use it, and about how many people? | |
@@ -44,4 +44,4 @@ Send the completed form to [register owner / channel]. We decide within [5] busi
 | Requester informed on | |
 
 ---
-*Template by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Template by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

@@ -2,7 +2,7 @@
 
 > **How to use this template.** Replace every item in `[square brackets]`. Delete the parts that do not apply to you. Ask your legal counsel to review the final policy before you adopt it. This template is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 | Document control | |
 |---|---|
@@ -39,7 +39,7 @@ This policy applies to every AI tool that you use for company work, on a company
 - **Approved tool:** an AI tool that has the status "Approved" or "Approved with conditions" in our AI Tool Register.
 - **AI agent:** an AI tool that can take actions, for example send messages, change files, or use other software.
 - **Output:** anything that an AI tool produces.
-- **Personal account:** an AI account that you created yourself, including free accounts, and not one that [Company Name] provides.
+- **Personal account:** an AI account that you created yourself, and not one that [Company Name] provides.
 
 ## 3. Roles
 
@@ -169,25 +169,13 @@ I read this AI Acceptable-Use Policy. I understand it, and I agree to follow it.
 
 ---
 
-## Appendix A. Framework mapping
+## Appendix A. Security risks
 
-This table shows which parts of common AI frameworks each section supports. Use it when auditors or customers ask how your policy aligns with these frameworks. Alignment with a framework does not mean legal compliance.
+The security risks in section 9 match the [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/).
 
-| Section | [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework) | [NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) (Generative AI Profile) | [ISO/IEC 42001:2023](https://www.iso.org/standard/42001), Annex A areas | [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) (if you have customers or staff in the EU) |
-|---|---|---|---|---|
-| 1–2 Purpose and scope | [GOVERN 1.2](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=27) | [GV-1.4-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=19), [GV-6.1-010](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) | Clause 5.2 (AI policy); A.2 Policies related to AI | — |
-| 3 Roles | [GOVERN 2.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | — | A.3 Internal organization | — |
-| 4 Approved tools and requests | [GOVERN 1.6](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28), [GOVERN 6.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29) | [GV-6.1-007](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25), [GV-1.6-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20) | A.9 Use of AI systems; A.10 Third-party and customer relationships | — |
-| 5 Data rules | [MAP 4.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32), [MEASURE 2.10](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=35) | — | A.7 Data for AI systems | — |
-| 6 Allowed and prohibited uses | [GOVERN 1.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=27) | [GV-3.2-003](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=22) | A.9 Use of AI systems | [Article 5](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_5) (prohibited practices) |
-| 7 Check the output | [MAP 3.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) | — | A.9 Use of AI systems | — |
-| 8 Transparency | [GOVERN 4.2](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29) | — | A.8 Information for interested parties | [Article 50](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_50) (transparency) |
-| 9 Agents, connections, code | [MANAGE 2.4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) | [MG-2.4-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=46) | A.6 AI system life cycle; A.9 Use of AI systems | — |
-| 10 Training | [GOVERN 2.2](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | — | Clauses 7.2–7.3 (competence, awareness) | [Article 4](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_4) (AI literacy) |
-| 11 Report problems | [GOVERN 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29), [MANAGE 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=38) | [GV-4.3-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=23) | A.3 Internal organization | — |
-| 12 Review | [GOVERN 1.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | — | A.2 Policies related to AI | — |
+The matching items are LLM01 Prompt Injection and LLM03 Excessive Agency.
 
-**Notes.** We checked the NIST references against [NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) and [NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf). The [ISO/IEC 42001](https://www.iso.org/standard/42001) areas come from public summaries, so check them against the standard before an audit. The security risks in section 9 match the [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/): LLM01 Prompt Injection and LLM03 Excessive Agency. Frameworks and laws change. This mapping is current as of [October 2026].
+Laws and guidance change. This note is current as of [October 2026].
 
 ---
-*Template by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Template by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

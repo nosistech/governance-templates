@@ -2,7 +2,7 @@
 
 > **How to use this template.** Send this notice to each client before an engagement starts. Replace every item in `[square brackets]`. List only the AI tools that you really use, and check each vendor's current terms first. Ask your legal counsel to review it. This template is not legal advice.
 >
-> Free to use and adapt. A Spanish version follows the English version.
+> Open to use and adapt under the license. A Spanish version follows the English version.
 
 ---
 
@@ -20,7 +20,7 @@ To do our work for you, we use some AI tools. This notice tells you which tools 
 | [Meeting notetaker] | [Vendor name] | [Meeting summaries] | [No, under our business contract] | [Number of days] |
 
 ### How we protect your data
-1. We use business accounts only, never personal or free accounts.
+1. We use business accounts only, never personal accounts.
 2. We keep your data in a separate workspace in each tool. It never mixes with another client's data.
 3. Before we use AI, we remove passwords, keys, and other secrets. When possible, we also replace personal data with fake values.
 4. We do not give AI tools health information about any person without a separate written agreement.
@@ -57,7 +57,7 @@ Para hacer nuestro trabajo, usamos algunas herramientas de inteligencia artifici
 | [Asistente de notas de reuniones] | [Nombre del proveedor] | [Resúmenes de reuniones] | [No, según nuestro contrato empresarial] | [Número de días] |
 
 ### Cómo protegemos sus datos
-1. Solo usamos cuentas empresariales, nunca cuentas personales ni gratuitas.
+1. Solo usamos cuentas empresariales, nunca cuentas personales.
 2. Guardamos sus datos en un espacio separado en cada herramienta. Nunca se mezclan con los datos de otro cliente.
 3. Antes de usar IA, eliminamos contraseñas, claves y otros secretos. Cuando es posible, también reemplazamos los datos personales con valores ficticios.
 4. No damos a las herramientas de IA información de salud de ninguna persona sin un acuerdo escrito aparte.
@@ -79,4 +79,4 @@ Usted puede aceptar, limitar nuestro uso de IA o rechazarlo. Si lo rechaza, hace
 | | | | |
 
 ---
-*Template by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Template by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

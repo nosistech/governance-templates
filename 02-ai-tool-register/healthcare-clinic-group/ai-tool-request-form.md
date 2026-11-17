@@ -2,7 +2,7 @@
 
 > **This is a fictional worked example.** Riverbend Family Health does not exist. Any resemblance to a real company is a coincidence. It shows how a US outpatient clinic group could adapt the [generic template](../generic/ai-tool-request-form.md). Ask your legal counsel and your HIPAA Privacy Officer to review your own form. This example is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 Send the completed form to the AI Review Group. We decide within 5 business days. Clinical uses can take longer, because the Medical Director must review them.
 
@@ -15,7 +15,7 @@ Send the completed form to the AI Review Group. We decide within 5 business days
 | Question | Your answer |
 |---|---|
 | Your name, role, clinic, and date | |
-| Name of the AI tool, and the plan (for example free, business, or enterprise) | |
+| Name of the AI tool, and the plan (for example no-cost, business, or enterprise) | |
 | Vendor and website | |
 | What task do you want to do with it? Give one made-up example. | |
 | Who will use it, and about how many people? | |
@@ -50,4 +50,4 @@ Send the completed form to the AI Review Group. We decide within 5 business days
 | Requester informed on | |
 
 ---
-*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
