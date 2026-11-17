@@ -2,7 +2,7 @@
 
 > **This is a fictional worked example.** Lumorra Data, Inc. does not exist. Any resemblance to a real company is a coincidence. It shows how a B2B software company that builds an AI product could adapt the [generic template](../generic/ai-tool-register-guide.md). Ask your legal counsel to review your own register process. This example is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 | Document control | |
 |---|---|
@@ -48,7 +48,7 @@ The same model provider can power two features with different risks. A feature t
 - meeting recorders and AI notetakers
 - each model provider that our product calls through an API
 - each AI feature in the Lumorra platform, including agents and search
-- free or personal AI accounts, with the status "Prohibited", so that the decision is on record
+- personal AI accounts, with the status "Prohibited", so that the decision is on record
 
 ### 2.4 What we do not register
 We do not register spell check and grammar suggestions that do not send data outside the software. If you are not sure, register the feature.
@@ -87,7 +87,7 @@ Before we release an AI feature, we run our evaluation and security tests. The t
 | Column | What to write | Example |
 |---|---|---|
 | ID | A unique number. Product AI rows start with "AI-P". | AI-P01 |
-| Tool and plan | The product name and the plan. The plan matters: free and business plans often have different data terms. | [Code assistant], business plan |
+| Tool and plan | The product name and the plan. The plan matters: no-cost and business plans often have different data terms. | [Code assistant], business plan |
 | Vendor | The company that provides the tool or the model | Model provider A |
 | What we use it for | The task, in one sentence | Answer user questions about the customer's own documents |
 | Type of AI | Choose from the list. Use "AI in a product we sell" for product AI rows. | AI in a product we sell |
@@ -194,9 +194,6 @@ Each agent row must show these controls before approval:
 3. We log every action that the agent takes.
 4. The tool owner can switch the agent off for one customer or for all customers.
 
-### 7.4 Customers and users in the EU
-Some Lumorra customers and their users are in the EU. The EU AI Act asks us to tell people when they interact with an AI system ([Article 50](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_50)). It also asks companies to support the AI literacy of their staff ([Article 4](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_4)). The [Digital Omnibus](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) changed several dates in the Act. Our privacy counsel confirms our role and the dates that apply to each AI feature.
-
 ## 8. Keep the register current
 
 ### 8.1 Review schedule
@@ -251,22 +248,17 @@ Send customers an extract of the product AI rows, not the full register. Remove 
 
 ---
 
-## Appendix B. Framework mapping
+## Appendix B. Security risks
 
-This table shows which parts of common AI frameworks each section supports. Use it when auditors or customers ask how your register aligns with these frameworks. Alignment with a framework does not mean legal compliance.
+The risks in section 6.1 match the [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/).
 
-| Section | [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework) | [NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) (Generative AI Profile) | [ISO/IEC 42001:2023](https://www.iso.org/standard/42001), Annex A areas | [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) (customers or staff in the EU) |
-|---|---|---|---|---|
-| 1–2 The register and what goes in it | [GOVERN 1.6](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | [GV-1.6-001](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20), [GV-1.6-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20), [GV-6.1-007](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) | A.4 Resources for AI systems; A.10 Third-party and customer relationships | — |
-| 3 Roles | [GOVERN 2.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | — | A.3 Internal organization | — |
-| 4.1 New model providers | [GOVERN 6.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29), [MAP 4.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) | [GV-6.1-007](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) | A.10 Third-party and customer relationships | — |
-| 5 The columns | [MAP 1.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=31), [MAP 4.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) | [GV-1.6-003](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20) | A.6 AI system life cycle; A.7 Data for AI systems | — |
-| 6 Risk scoring | [MAP 5.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32), [MANAGE 1.2](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) | [GV-1.3-001](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=18) | A.5 Assessing impacts of AI systems | [Article 6](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_6) and [Annex III](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#anx_III) (which uses are high-risk) |
-| 7 Decisions | [MANAGE 1.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37), [MANAGE 1.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37), [MANAGE 1.4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) | [GV-1.3-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=18) | A.9 Use of AI systems | [Article 4](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_4), [Article 50](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_50) |
-| 8.1–8.3 Reviews | [GOVERN 1.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28), [MEASURE 3.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=35), [MANAGE 3.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) | [MG-1.3-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=44) | A.6 AI system life cycle | — |
-| 8.4 Retire a tool | [GOVERN 1.7](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | [GV-1.7-001](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21), [GV-1.7-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21), [MG-2.4-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=46) | A.6 AI system life cycle | — |
+The matching items are LLM01 Prompt Injection, LLM02 Sensitive Information Disclosure, and LLM03 Excessive Agency.
 
-**Notes.** We checked the NIST references against [NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) and [NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf). The [ISO/IEC 42001](https://www.iso.org/standard/42001) areas come from public summaries, so check them against the standard before an audit. The risks in section 6.1 match the [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/). The matching items are LLM01 Prompt Injection, LLM02 Sensitive Information Disclosure, LLM03 Excessive Agency, and LLM04 Supply Chain. They also include LLM06 Unbounded Consumption, LLM07 Misinformation, LLM08 Hidden Context Exposure, and LLM09 Vector and Embedding Weaknesses. Frameworks and laws change. This mapping is current as of November 2026.
+They also include LLM04 Supply Chain, LLM06 Unbounded Consumption, and LLM07 Misinformation.
+
+They also include LLM08 Hidden Context Exposure and LLM09 Vector and Embedding Weaknesses.
+
+Laws and guidance change. This note is current as of November 2026.
 
 ---
-*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

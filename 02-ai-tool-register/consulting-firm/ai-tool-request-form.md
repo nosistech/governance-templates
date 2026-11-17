@@ -2,7 +2,7 @@
 
 > **This is a fictional worked example.** Keystone Advisory does not exist. Any resemblance to a real company is a coincidence. It shows how a small consulting firm could adapt the [generic request form](../generic/ai-tool-request-form.md). This example is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 Fill in Part 1 and email the form to the Managing Partner. We decide within 5 business days.
 
@@ -13,7 +13,7 @@ Fill in Part 1 and email the form to the Managing Partner. We decide within 5 bu
 | Question | Your answer |
 |---|---|
 | Your name and date | |
-| Name of the AI tool, and the plan (for example free, business, or enterprise) | |
+| Name of the AI tool, and the plan (for example no-cost, business, or enterprise) | |
 | Vendor and website | |
 | What task do you want to do with it? Give one example. | |
 | Who will use it: you, one engagement team, or the whole firm? | |
@@ -46,4 +46,4 @@ Fill in Part 1 and email the form to the Managing Partner. We decide within 5 bu
 | Requester informed on | |
 
 ---
-*Template by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Template by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

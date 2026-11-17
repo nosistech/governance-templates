@@ -12,7 +12,7 @@
 7. **Call back** on a known number before you act on an urgent request for money, passwords, or data.
 
 ## Do not
-1. **Do not use personal or free AI accounts** for Keystone work.
+1. **Do not use personal AI accounts** for Keystone work.
 2. **Do not use AI on client data** if the client said no.
 3. **Do not mix two clients' data** in one chat or project.
 4. **Do not put passwords or other secrets** into any AI tool.

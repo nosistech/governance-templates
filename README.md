@@ -1,6 +1,6 @@
 # AI Governance Templates
 
-Free, practical templates that help small and mid-size companies use AI safely. Each template comes ready to use, with worked examples for three industries.
+Practical templates that help small and mid-size companies use AI safely. Each template comes ready to use, with worked examples for three industries.
 
 By [NosisTech LLC](https://nosistech.com).
 
@@ -55,17 +55,11 @@ The Excel file calculates the risk score, the risk level, and the next review da
 5. Give the one-page staff guide to everyone who uses AI tools.
 6. Review the policy at least every 12 months.
 
-## Built on public frameworks
+## Security references
 
-Each template has an appendix that maps its sections to these frameworks:
-
-- NIST AI Risk Management Framework 1.0 (AI 100-1)
-- NIST Generative AI Profile (AI 600-1)
-- ISO/IEC 42001:2023, Annex A areas
-- EU AI Act
-- OWASP Top 10 for LLM Applications 2026
-
-Alignment with a framework does not mean legal compliance.
+Some templates name risks from the [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/).
+Those notes cover prompt injection, data leaks, and similar security risks.
+They are not a legal compliance claim.
 
 ## Important
 

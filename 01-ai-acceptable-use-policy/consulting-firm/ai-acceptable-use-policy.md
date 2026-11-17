@@ -2,7 +2,7 @@
 
 > **This is a fictional worked example.** Keystone Advisory does not exist. Any resemblance to a real company is a coincidence. It shows how a small consulting firm could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Ask your legal counsel to review your own policy. This example is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 | Document control | |
 |---|---|
@@ -40,7 +40,7 @@ This policy applies to all partners, consultants, contractors, and subcontractor
 ## 4. Approved tools and new requests
 
 1. Use only approved tools, with your Keystone account. The list is in the AI Tool Register.
-2. Never use a personal account or a free AI tool for Keystone work. Free plans often let the vendor keep your data or train its AI on it.
+2. Never use a personal account or a no-cost AI tool for Keystone work. No-cost plans often let the vendor keep your data or train its AI on it.
 3. To request a new tool, email the Managing Partner. Give the tool name, the task, and the data that the tool will see. We decide within 5 business days.
 4. Before we approve a tool, we check its contract. The vendor must not train its AI on our data, and it must delete our data within a time limit that we accept.
 5. If we add a new AI tool that will process client data, we tell each affected client first.
@@ -165,14 +165,11 @@ I read the Keystone Advisory AI Acceptable-Use Policy. I understand it, and I ag
 | Will you record our meetings? | 9 | The notetaker rules |
 | Do you charge us for AI learning time? | 10 | The billing rules |
 
-## Appendix B. Framework mapping
+## Appendix B. Security risks
 
-The generic template has the full section-by-section mapping. This example adds controls that support these items:
+These controls match the OWASP items below.
 
-- **[NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework):** [GOVERN 6.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29) (third-party risks), [MAP 3.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) (human oversight), [MANAGE 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=38) (incident communication)
-- **[NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf):** [GV-1.4-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=19) (transparent acceptable-use policies), [GV-6.1-010](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) (rules for contractors and other third parties)
-- **[ISO/IEC 42001](https://www.iso.org/standard/42001), Annex A areas:** A.8 (information for interested parties), A.10 (third-party and customer relationships)
 - **[OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/):** LLM01 Prompt Injection (11.2), LLM02 Sensitive Information Disclosure (5, 6), LLM07 Misinformation (8)
 
 ---
-*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

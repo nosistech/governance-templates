@@ -2,7 +2,7 @@
 
 > **This is a fictional worked example.** Lumorra Data, Inc. does not exist. Any resemblance to a real company is a coincidence. It shows how a B2B software company that builds an AI product could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Ask your legal counsel to review your own policy. This example is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 | Document control | |
 |---|---|
@@ -50,7 +50,7 @@ The Lumorra Secure Development Standard gives the detailed engineering steps for
 ## 4. Approved tools and new requests
 
 1. Use only approved tools for Lumorra work, with your Lumorra account. The list is in the AI Tool Register.
-2. Never use a personal account or a free AI tool for Lumorra work.
+2. Never use a personal account or a no-cost AI tool for Lumorra work.
 3. To request a new tool, open a ticket in the security queue. Give the tool name, the task, and the data that the tool will see. We decide within 5 business days.
 4. MCP servers, plugins, and IDE extensions count as tools. Install only the ones on the approved list.
 5. A new model provider for the product needs approval from the AI Review Group. Before it processes customer data, we update the sub-processor list and give customers the notice that their contracts require.
@@ -125,7 +125,6 @@ Do not use any AI tool to:
 
 1. Complete the AI training within 30 days after you join, and a refresher every 12 months.
 2. Engineers also complete the secure AI engineering module. It covers the OWASP Top 10 for LLM Applications and our agent rules.
-3. The training also meets the AI literacy duty of the EU AI Act for staff who work with our EU customers.
 
 ## 11. Report problems
 
@@ -175,22 +174,18 @@ Enterprise customers ask the same AI questions in most security reviews. This ta
 | Do your staff get AI training? | 10 | Training completion report |
 | What happens if an AI incident affects our data? | 11 | AI incident-response playbook |
 
-## Appendix B. Framework mapping
+## Appendix B. Security risks
 
-The generic template has the full section-by-section mapping. This example adds product controls that support these items:
+These product controls match the OWASP items below.
 
 - **[OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/):**
   - LLM01 Prompt Injection: 7.4
   - LLM02 Sensitive Information Disclosure: 5, 7.3
-  - LLM03 Excessive Agency: 6.5–6.7
-  - LLM04 Supply Chain: 4.4–4.5
+  - LLM03 Excessive Agency: 6.5 to 6.7
+  - LLM04 Supply Chain: 4.4 to 4.5
   - LLM06 Unbounded Consumption: 7.9
   - LLM08 Hidden Context Exposure: 7.10
   - LLM09 Vector and Embedding Weaknesses: 7.3
-- **[NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf):** [GV-6.1-007](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) (approved provider list), [GV-1.6-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20) (AI inside other software), [MG-2.4-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=46) (criteria to switch off a system)
-- **[NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework):** [GOVERN 6.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=29) (third-party risks), [MANAGE 2.4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) (switch off), [MANAGE 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=38) (incident communication)
-- **[ISO/IEC 42001](https://www.iso.org/standard/42001), Annex A areas:** A.6 (AI system life cycle), A.7 (data for AI systems), A.10 (third-party and customer relationships)
-- **[EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng):** [Article 4](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_4) (AI literacy) and [Article 50](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_50) (transparency when people interact with AI). Ask counsel to confirm your role (provider or deployer) for each AI feature.
 
 ---
-*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

@@ -11,7 +11,7 @@
 6. **Report fast:** PHI in the wrong tool goes to the Privacy Officer. A wrong AI note goes to the patient-safety system.
 
 ## Do not
-1. **Do not put PHI into ChatGPT, a free tool, or any tool without a BAA.** Not even to "remove the names later".
+1. **Do not put PHI into ChatGPT, a no-cost tool, or any tool without a BAA.** Not even to "remove the names later".
 2. **Do not let AI diagnose, treat, or deny care.** A clinician decides.
 3. **Do not sign a note that you did not read.**
 4. **Do not record anyone without consent.**

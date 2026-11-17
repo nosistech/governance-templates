@@ -2,7 +2,7 @@
 
 > **This is a fictional worked example.** Riverbend Family Health does not exist. Any resemblance to a real company is a coincidence. It shows how a US outpatient clinic group could adapt the [generic template](../generic/ai-acceptable-use-policy.md). Laws change and differ by state. Ask your legal counsel and your HIPAA Privacy Officer to review your own policy. This example is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 | Document control | |
 |---|---|
@@ -56,7 +56,7 @@ This policy applies to every AI tool that you use for Riverbend work, on a River
 ## 4. Approved tools and new requests
 
 1. Use only approved tools for Riverbend work. The list is in the AI Tool Register on the staff intranet.
-2. Use your Riverbend account for each tool. Never use a personal account or a free AI tool for Riverbend work.
+2. Use your Riverbend account for each tool. Never use a personal account or a no-cost AI tool for Riverbend work.
 3. To request a new tool or a new use, send the AI request form to the AI Review Group. Say what you want to do and what data the tool will see.
 4. The AI Review Group decides within 5 business days. Clinical uses can take longer, because the Medical Director must review them.
 5. Before we approve a tool, we review the vendor. We check its BAA, its data use, its security, and its clinical evidence.
@@ -176,14 +176,11 @@ Status as of October 2026. Confirm with your counsel before you rely on any of t
 | [Texas HB 149](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149), Texas Responsible AI Governance Act (from January 1, 2026) | Tell patients in plain language that AI is used in their care, by the date of service | 8 |
 | [Texas SB 1188](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1188) (Health and Safety Code §183.005, from September 1, 2025) | A practitioner who uses AI for diagnosis reviews all AI-generated records and tells the patient | 6, 8 |
 
-## Appendix B. Framework mapping
+## Appendix B. Security risks
 
-The generic template has the full section-by-section mapping. This example adds clinical controls that support these items:
+These clinical controls match the OWASP items below.
 
-- **[NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework):** [MAP 3.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) (human oversight), [MEASURE 2.11](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=35) (fairness and bias), [MANAGE 4.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=38) (incident communication)
-- **[NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf):** [GV-1.4-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=19) (transparent acceptable-use policies), [MG-2.4-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=46) (criteria to switch off a system)
-- **[ISO/IEC 42001](https://www.iso.org/standard/42001), Annex A areas:** A.5 (assessing impacts of AI systems), A.8 (information for interested parties), A.9 (use of AI systems)
 - **[OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/):** LLM02 Sensitive Information Disclosure, LLM07 Misinformation
 
 ---
-*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Fictional example by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

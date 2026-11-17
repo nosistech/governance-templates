@@ -11,7 +11,7 @@
 4. Report fast in #security-incidents. We do not punish good-faith reports.
 
 **Do not**
-1. Do not use personal or free AI accounts for Lumorra work.
+1. Do not use personal AI accounts for Lumorra work.
 2. Do not paste customer data into any chat or code assistant. Use the masked test data.
 3. Do not put passwords, API keys, or other secrets into any AI tool.
 4. Do not record a meeting without everyone's consent.

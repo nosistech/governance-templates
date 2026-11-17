@@ -2,7 +2,7 @@
 
 > **How to use this template.** This guide explains how to keep your AI Tool Register. The register itself is the Excel file in the same folder. Replace every item in `[square brackets]`. Delete the parts that do not apply to you. This template is not legal advice.
 >
-> Free to use and adapt.
+> Open to use and adapt under the license.
 
 | Document control | |
 |---|---|
@@ -38,7 +38,7 @@ The same tool can be safe for one task and risky for another. A chat assistant t
 - browser extensions and AI browsers
 - AI agents that can take actions, and AI tools connected to our systems
 - AI inside products or services that we sell to customers
-- free or personal AI accounts that staff use for work, with the status "Prohibited", so that the decision is on record
+- personal AI accounts that staff use for work, with the status "Prohibited", so that the decision is on record
 
 ### 2.3 What you do not need to register
 [List the AI features that you exempt, for example spell check and grammar suggestions that do not send data outside the software. Keep this list short. If you are not sure, register the feature.]
@@ -66,7 +66,7 @@ The same tool can be safe for one task and risky for another. A chat assistant t
 | Column | What to write | Example |
 |---|---|---|
 | ID | A unique number | AI-007 |
-| Tool and plan | The product name and the plan. The plan matters: free and business plans often have different data terms. | [Chat assistant], business plan |
+| Tool and plan | The product name and the plan. The plan matters: no-cost and business plans often have different data terms. | [Chat assistant], business plan |
 | Vendor | The company that provides the tool | [Vendor name] |
 | What we use it for | The task, in one sentence | Draft replies to customer support emails |
 | Type of AI | Choose from the list | AI feature in existing software |
@@ -161,7 +161,7 @@ Score the chance that the harm reaches someone, not the chance of a small error.
 | Retired | We stopped using it. The row stays for our records. |
 
 ### 7.3 Uses that affect people
-If a use affects decisions about people, a qualified person must make the final decision. Write this in the conditions of use. Ask your legal counsel which laws apply in your states and countries. If you have staff or customers in the EU, ask about the EU AI Act rules for high-risk uses.
+If a use affects decisions about people, a qualified person must make the final decision. Write this in the conditions of use. Ask your legal counsel which laws apply in your states and countries.
 
 ## 8. Keep the register current
 
@@ -197,21 +197,17 @@ Record every change to the register in the "Change log" sheet: the date, the ID,
 
 ---
 
-## Appendix A. Framework mapping
+## Appendix A. Security risks
 
-This table shows which parts of common AI frameworks each section supports. Use it when auditors or customers ask how your register aligns with these frameworks. Alignment with a framework does not mean legal compliance.
+The risks in section 6.1 match the [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/).
 
-| Section | [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework) | [NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) (Generative AI Profile) | [ISO/IEC 42001:2023](https://www.iso.org/standard/42001), Annex A areas | [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) (if you have customers or staff in the EU) |
-|---|---|---|---|---|
-| 1–2 The register and what goes in it | [GOVERN 1.6](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | [GV-1.6-001](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20), [GV-1.6-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20), [GV-6.1-007](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=25) | A.4 Resources for AI systems; A.10 Third-party and customer relationships | — |
-| 3 Roles | [GOVERN 2.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | — | A.3 Internal organization | — |
-| 5 The columns | [MAP 1.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=31), [MAP 4.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32) | [GV-1.6-003](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=20) | A.6 AI system life cycle; A.7 Data for AI systems | — |
-| 6 Risk scoring | [MAP 5.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=32), [MANAGE 1.2](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) | [GV-1.3-001](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=18) | A.5 Assessing impacts of AI systems | [Article 6](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_6) and [Annex III](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#anx_III) (which uses are high-risk) |
-| 7 Decisions | [MANAGE 1.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37), [MANAGE 1.3](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37), [MANAGE 1.4](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) | [GV-1.3-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=18) | A.9 Use of AI systems | [Article 26](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng#art_26) (duties of companies that use high-risk AI) |
-| 8.1–8.3 Reviews | [GOVERN 1.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28), [MEASURE 3.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=35), [MANAGE 3.1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=37) | [MG-1.3-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=44) | A.6 AI system life cycle | — |
-| 8.4 Retire a tool | [GOVERN 1.7](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf#page=28) | [GV-1.7-001](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21), [GV-1.7-002](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=21), [MG-2.4-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf#page=46) | A.6 AI system life cycle | — |
+The matching items are LLM01 Prompt Injection, LLM02 Sensitive Information Disclosure, and LLM03 Excessive Agency.
 
-**Notes.** We checked the NIST references against [NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) and [NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf). MANAGE 1.3 names the 4 ways to respond to a risk: mitigate, transfer, avoid, or accept. The [ISO/IEC 42001](https://www.iso.org/standard/42001) areas come from public summaries, so check them against the standard before an audit. The risks in section 6.1 match the [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/). The matching items are LLM01 Prompt Injection, LLM02 Sensitive Information Disclosure, LLM03 Excessive Agency, LLM04 Supply Chain, and LLM07 Misinformation. Frameworks and laws change. This mapping is current as of [November 2026].
+They also include LLM04 Supply Chain and LLM07 Misinformation.
+
+There are four ways to respond to a risk: mitigate, transfer, avoid, or accept.
+
+Laws and guidance change. This note is current as of [November 2026].
 
 ---
-*Template by [NosisTech LLC](https://nosistech.com). Part of the free [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Template by [NosisTech LLC](https://nosistech.com). Part of the [governance-templates](https://github.com/nosistech/governance-templates) collection. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
