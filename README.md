@@ -10,7 +10,7 @@ By [NosisTech LLC](https://nosistech.com).
 |---|---|---|---|
 | 01 | [AI acceptable-use policy](01-ai-acceptable-use-policy/) | Sets the rules for how staff use AI tools at work | ✅ Available |
 | 02 | [AI tool register](02-ai-tool-register/) | Lists the AI tools that a company uses, with a risk score for each | ✅ Available |
-| 03 | AI vendor security questionnaire | Gives the questions to ask before you approve an AI vendor | Coming soon |
+| 03 | [AI vendor security questionnaire](03-ai-vendor-questionnaire/) | Gives the questions to ask before you approve an AI vendor | ✅ Available |
 | 04 | AI incident-response playbook | Explains what to do when an AI tool causes harm or a data leak | Coming soon |
 
 The four templates work together. The policy sets the rules. The register lists the approved tools. The questionnaire decides which tools get approved. The playbook handles problems.
@@ -46,6 +46,17 @@ The example companies do not exist. Any resemblance to a real company is a coinc
 
 The Excel file calculates the risk score, the risk level, and the next review date for each row.
 
+## Template 03: AI vendor security questionnaire
+
+| Version | Questionnaire (Excel) | Review guide | Vendor questionnaire |
+|---|---|---|---|
+| Generic | [Excel](03-ai-vendor-questionnaire/generic/ai-vendor-questionnaire.xlsx) | [Markdown](03-ai-vendor-questionnaire/generic/ai-vendor-review-guide.md) · [Word](03-ai-vendor-questionnaire/generic/ai-vendor-review-guide.docx) | [Markdown](03-ai-vendor-questionnaire/generic/ai-vendor-questionnaire.md) · [Word](03-ai-vendor-questionnaire/generic/ai-vendor-questionnaire.docx) |
+| Healthcare clinic group | [Excel](03-ai-vendor-questionnaire/healthcare-clinic-group/ai-vendor-questionnaire.xlsx) | [Markdown](03-ai-vendor-questionnaire/healthcare-clinic-group/ai-vendor-review-guide.md) · [Word](03-ai-vendor-questionnaire/healthcare-clinic-group/ai-vendor-review-guide.docx) | [Markdown](03-ai-vendor-questionnaire/healthcare-clinic-group/ai-vendor-questionnaire.md) · [Word](03-ai-vendor-questionnaire/healthcare-clinic-group/ai-vendor-questionnaire.docx) |
+| B2B AI SaaS | [Excel](03-ai-vendor-questionnaire/b2b-ai-saas/ai-vendor-questionnaire.xlsx) | [Markdown](03-ai-vendor-questionnaire/b2b-ai-saas/ai-vendor-review-guide.md) · [Word](03-ai-vendor-questionnaire/b2b-ai-saas/ai-vendor-review-guide.docx) | [Markdown](03-ai-vendor-questionnaire/b2b-ai-saas/ai-vendor-questionnaire.md) · [Word](03-ai-vendor-questionnaire/b2b-ai-saas/ai-vendor-questionnaire.docx) |
+| Consulting firm | [Excel](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-questionnaire.xlsx) | [Markdown](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-review-guide.md) · [Word](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-review-guide.docx) | [Markdown](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-questionnaire.md) · [Word](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-questionnaire.docx) |
+
+The Excel file chooses the review tier from 6 triage questions, marks the questions to send, and shows the result of the review. The three industry versions include a worked example review.
+
 ## How to use a template
 
 1. Choose the version that is closest to your company.
@@ -63,7 +74,7 @@ They are not a legal compliance claim.
 
 ## Important
 
-These templates are not legal advice. Laws about AI change often and differ by state and country. The legal references are current as of October 2026. Ask your legal counsel before you adopt any template.
+These templates are not legal advice. Laws about AI change often and differ by state and country. The legal references are current as of November 2026. Ask your legal counsel before you adopt any template.
 
 ## License
 
