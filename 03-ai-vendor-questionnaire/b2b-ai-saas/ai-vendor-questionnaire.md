@@ -269,7 +269,7 @@ Answer this section if the AI can take actions or connect to other systems.
 >
 > Evidence:
 
-**H5** (Deep). If we have users in the EU: what is your role under the EU AI Act for this product? Which documentation do you give to deployers?
+**H5** (Deep). Which AI laws and rules apply to this product where you offer it? Which documentation do you give to customers who use it?
 
 > Answer:
 >
