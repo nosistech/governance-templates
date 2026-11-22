@@ -11,7 +11,7 @@ By [NosisTech LLC](https://nosistech.com).
 | 01 | [AI acceptable-use policy](01-ai-acceptable-use-policy/) | Sets the rules for how staff use AI tools at work | ✅ Available |
 | 02 | [AI tool register](02-ai-tool-register/) | Lists the AI tools that a company uses, with a risk score for each | ✅ Available |
 | 03 | [AI vendor security questionnaire](03-ai-vendor-questionnaire/) | Gives the questions to ask before you approve an AI vendor | ✅ Available |
-| 04 | AI incident-response playbook | Explains what to do when an AI tool causes harm or a data leak | Coming soon |
+| 04 | [AI incident-response playbook](04-ai-incident-response-playbook/) | Explains what to do when an AI tool causes harm or a data leak | ✅ Available |
 
 The four templates work together. The policy sets the rules. The register lists the approved tools. The questionnaire decides which tools get approved. The playbook handles problems.
 
@@ -56,6 +56,17 @@ The Excel file calculates the risk score, the risk level, and the next review da
 | Consulting firm | [Excel](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-questionnaire.xlsx) | [Markdown](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-review-guide.md) · [Word](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-review-guide.docx) | [Markdown](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-questionnaire.md) · [Word](03-ai-vendor-questionnaire/consulting-firm/ai-vendor-questionnaire.docx) |
 
 The Excel file chooses the review tier from 6 triage questions, marks the questions to send, and shows the result of the review. The three industry versions include a worked example review.
+
+## Template 04: AI incident-response playbook
+
+| Version | Playbook | First-hour card | Incident log (Excel) |
+|---|---|---|---|
+| Generic | [Markdown](04-ai-incident-response-playbook/generic/ai-incident-response-playbook.md) · [Word](04-ai-incident-response-playbook/generic/ai-incident-response-playbook.docx) | [Markdown](04-ai-incident-response-playbook/generic/ai-incident-first-hour-card.md) · [Word](04-ai-incident-response-playbook/generic/ai-incident-first-hour-card.docx) | [Excel](04-ai-incident-response-playbook/generic/ai-incident-log.xlsx) |
+| Healthcare clinic group | [Markdown](04-ai-incident-response-playbook/healthcare-clinic-group/ai-incident-response-playbook.md) · [Word](04-ai-incident-response-playbook/healthcare-clinic-group/ai-incident-response-playbook.docx) | [Markdown](04-ai-incident-response-playbook/healthcare-clinic-group/ai-incident-first-hour-card.md) · [Word](04-ai-incident-response-playbook/healthcare-clinic-group/ai-incident-first-hour-card.docx) | [Excel](04-ai-incident-response-playbook/healthcare-clinic-group/ai-incident-log.xlsx) |
+| B2B AI SaaS | [Markdown](04-ai-incident-response-playbook/b2b-ai-saas/ai-incident-response-playbook.md) · [Word](04-ai-incident-response-playbook/b2b-ai-saas/ai-incident-response-playbook.docx) | [Markdown](04-ai-incident-response-playbook/b2b-ai-saas/ai-incident-first-hour-card.md) · [Word](04-ai-incident-response-playbook/b2b-ai-saas/ai-incident-first-hour-card.docx) | [Excel](04-ai-incident-response-playbook/b2b-ai-saas/ai-incident-log.xlsx) |
+| Consulting firm | [Markdown](04-ai-incident-response-playbook/consulting-firm/ai-incident-response-playbook.md) · [Word](04-ai-incident-response-playbook/consulting-firm/ai-incident-response-playbook.docx) | [Markdown](04-ai-incident-response-playbook/consulting-firm/ai-incident-first-hour-card.md) · [Word](04-ai-incident-response-playbook/consulting-firm/ai-incident-first-hour-card.docx) | [Excel](04-ai-incident-response-playbook/consulting-firm/ai-incident-log.xlsx) |
+
+The Excel log rates the severity from 5 impact areas, sets a response time, and tracks the notices and their due dates. The three industry versions include a worked example incident.
 
 ## How to use a template
 
