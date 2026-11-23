@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or adapt these templates, please cite them as below."
+title: "AI Governance Templates"
+type: software
+authors:
+  - name: "NosisTech LLC"
+    website: "https://nosistech.com"
+abstract: >-
+  Four AI governance templates for small and mid-size companies: an AI
+  acceptable-use policy, an AI tool register, an AI vendor questionnaire,
+  and an AI incident response playbook. Word and Excel files, each in a
+  generic version and three fictional industry examples.
+repository-code: "https://github.com/nosistech/governance-templates"
+url: "https://nosistech.com/ai-governance-templates-start-here/"
+license: CC-BY-4.0
+version: 2.0.0
+date-released: "2026-11-22"
+keywords:
+  - ai governance
+  - ai acceptable-use policy
+  - ai risk register
+  - ai vendor questionnaire
+  - ai incident response
+  - templates
