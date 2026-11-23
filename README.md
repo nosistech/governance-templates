@@ -4,6 +4,8 @@ Practical templates that help small and mid-size companies use AI safely. Each t
 
 By [NosisTech LLC](https://nosistech.com).
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24452567.svg)](https://doi.org/10.5281/zenodo.24452567)
+
 ## What's inside
 
 | # | Template | What it does | Status |
