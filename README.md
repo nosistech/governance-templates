@@ -102,6 +102,11 @@ They are not a legal compliance claim.
 
 These templates are not legal advice. Laws about AI change often and differ by state and country. The legal references are current as of November 2026. Ask your legal counsel before you adopt any template.
 
+## How to cite
+
+Use the DOI [10.5281/zenodo.24452567](https://doi.org/10.5281/zenodo.24452567). It always points to the newest version.
+You can also use the "Cite this repository" button on this page. It reads [CITATION.cff](CITATION.cff).
+
 ## License
 
 NosisTech LLC licenses these templates under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You can use and adapt them, also for commercial work. If you share or publish them, credit NosisTech LLC and link to this repository. Full text: [LICENSE](LICENSE).
