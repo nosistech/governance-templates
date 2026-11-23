@@ -15,6 +15,19 @@ By [NosisTech LLC](https://nosistech.com).
 
 The four templates work together. The policy sets the rules. The register lists the approved tools. The questionnaire decides which tools get approved. The playbook handles problems.
 
+## Read the articles
+
+Each template has two articles on nosistech.com. The first is for business owners. The second explains the design decisions, for IT, security, and compliance people.
+
+**Where to start:** [Four AI Governance Templates That Work Together: Where to Start](https://nosistech.com/ai-governance-templates-start-here/)
+
+| # | For business owners | Design decisions |
+|---|---|---|
+| 01 | [Your Team Already Uses AI. Here Is a Policy That Makes It Safe](https://nosistech.com/free-ai-acceptable-use-policy-template/) | [Inside My AI Acceptable-Use Policy](https://nosistech.com/ai-acceptable-use-policy-design-decisions/) |
+| 02 | [Which AI Tools Does Your Company Use? Build a Register in One Afternoon](https://nosistech.com/ai-tool-register-template/) | [Inside My AI Tool Register](https://nosistech.com/ai-tool-register-design-decisions/) |
+| 03 | [What Does Your AI Vendor Do With Your Data? Ask Before You Sign](https://nosistech.com/ai-vendor-questionnaire-template/) | [Inside My AI Vendor Questionnaire](https://nosistech.com/ai-vendor-questionnaire-design-decisions/) |
+| 04 | [When an AI Tool Gets It Wrong: Your Plan for the First Hour](https://nosistech.com/ai-incident-response-template/) | [Inside My AI Incident Response Playbook](https://nosistech.com/ai-incident-response-design-decisions/) |
+
 ## Four versions of each template
 
 | Folder | Use it if you are | Fictional example company |
